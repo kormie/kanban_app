@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --content-base build --port 9876"
+    "start": "webpack-dev-server --port 9876",
+    "lint": "eslint . --ext .js --ext .jsx"
   },
   "keywords": [],
   "author": "Kormie",
   "license": "WTFPL",
   "devDependencies": {
-    "webpack": "^1.12.13"
+    "css-loader": "^0.23.1",
+    "eslint-loader": "^1.2.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13",
+    "webpack-merge": "^0.7.3"
   }
 }

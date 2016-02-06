@@ -1,0 +1,10 @@
+body {
+  background: #aaa;
+}
+
+h1 {
+  text-shadow: 1px 1px 1px #AAA, 0 0 0 #555, 1px 1px 1px #AAA;
+  color: rgba(50, 50, 50, .6);
+  text-align: center;
+  text-decoration: underline;
+}
